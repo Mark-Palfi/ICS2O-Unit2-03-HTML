@@ -11,7 +11,6 @@ function enterClicked() {
   // input
   const street_name = document.getElementById("street-name").value
   const street_number = parseInt(document.getElementById("street-number").value)
-
   // output
   document.getElementById("address").innerHTML =
     "You live on: " + street_name + ", house " + street_number + "."
